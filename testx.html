@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="items_box">
+          <h1>Choose your weapon</h1>
+          <div class="images_contain">
+            <img src="images/paper.png" class="img-items" alt="">
+            <img src="images/rock.png" class="img-items" alt="">
+            <img src="images/scissors.png" class="img-items" alt="">
+          </div>
+          <h2>cpu choosed : </h2>
+          <img src="images/paper.png" class="img-cpu-choosed hidden" alt="">
+          <img src="images/rock.png" class="img-cpu-choosed hidden" alt="">
+          <img src="images/scissors.png" class="img-cpu-choosed hidden" alt="">
+        </div>
+        <div class="result_box">
+          <h1>points:</h1>
+          <div class="result_container">
+            <div class="user-point-container">
+              <h2>USER:</h2>
+              <div id="user-point">
+                0
+              </div>
+            </div>
+            <div class="cpu-point-container">
+              <h2>CPU:</h2>
+              <div id="cpu-point">
+                0
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button>Refresh</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
